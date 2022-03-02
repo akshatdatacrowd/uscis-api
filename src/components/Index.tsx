@@ -23,8 +23,33 @@ const Index = () => {
             </div>
           </div>
           <div className="bodywindow">
-            <div className="sidebarWindow"></div>
-            <div className="mainWindow"></div>
+            <div className="sidebarWindow">
+              <p>1</p>
+              <p>1</p>
+              <p>1</p>
+              <p>1</p>
+              <p>1</p>
+              <p>1</p>
+              <p>1</p>
+              <p>1</p>
+              <p>1</p>
+              <p>1</p>
+              <p>1</p>
+              <p>1</p>
+              <p>1</p>
+            </div>
+            <div className="mainWindow">
+              <p>GET https://data.fixer.io/api/latest</p>
+
+              <p>"base": USD,</p>
+              <p>"date": "2018-02-13",</p>
+              <p>"rates": </p>
+              <p>"CAD": 1.260046,</p>
+              <p>"CHF": 0.933058,</p>
+              <p>"EUR": 0.806942,</p>
+              <p>"GBP": 0.719154,</p>
+              <p>[170 world currencies]</p>
+            </div>
           </div>
         </div>
       </div>
