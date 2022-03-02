@@ -1,10 +1,8 @@
-* {
-  padding: 0%;
-  margin: 0%;
+html, * {
+  
   background-color: #F7F6E7;
+  background: transparent;
 }
-
-
 
 .Header {
   width: 100vw;
@@ -24,8 +22,11 @@
   left: 0;
   height: auto;
   width: 100vw;
-  padding: 1vh;
+  padding: 2vh;
   background-color: #2E4C6D;
+  text-align: center;
+  color: #F4EEC7;
+  font-weight: bolder;
 }
 
 .title {
@@ -33,4 +34,9 @@
   color: #F4EEC7;
   font-size: xx-large;
   padding-left: 2vw;
+}
+
+.indexMainBody {
+  display: flexbox;
+  position: relative;
 }
