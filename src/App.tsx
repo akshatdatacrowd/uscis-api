@@ -4,13 +4,14 @@ import Index from "./components/Index";
 
 function App() {
   return (
-
     <div className="App">
       <Header />
-      <Index />
+      <body>
+        <Index />
+      </body>
+
       <Footer />
     </div>
-    
   );
 }
 
