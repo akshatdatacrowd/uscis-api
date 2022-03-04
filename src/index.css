@@ -4,6 +4,7 @@
   font-family: "Times New Roman", sans-serif, serif, monospace;
 }
 
+
 a,
 a:hover,
 a:visited,
@@ -192,12 +193,10 @@ Link {
 ---------------------------------- */
 
 .pricingHeading {
-  
   width: 100%;
   text-align: center;
   margin-top: 3vh;
   margin-bottom: 3vh;
-  
 }
 
 .pricingOptionBtn {
@@ -215,7 +214,6 @@ Link {
   margin-left: 1vw;
   margin-right: 1vw;
   height: 3vh;
-
 }
 
 .MonYearBtnBtn {
@@ -246,8 +244,8 @@ Link {
 }
 
 .subopticon {
-margin-top: 2vh;
-margin-bottom: 2vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 
 .suboptPrice {
@@ -278,7 +276,6 @@ margin-bottom: 2vh;
   margin-bottom: 2vh;
   padding-top: 2vh;
   border-top: 1px #e0dcdc solid;
-  
 }
 
 /* -----------------------------
@@ -290,27 +287,111 @@ margin-bottom: 2vh;
 ---------------------------------*/
 
 .SignUpIndex {
-  
   width: 100%;
-  
+
+  height: auto;
+}
+
+#SUHeading {
+  text-align: center;
+  padding-top: 4vh;
+  margin-bottom: 2vh;
 }
 
 .SignUpFormContainer {
-  border: 2px red solid;
-  width: 50%;
+  width: 80%;
   margin: auto;
   margin-top: 10vh;
   text-align: center;
+  display: flex;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  padding-bottom: 3vh;
+  border-radius: 10px;
+  background-color: #f3f6f6;
+
 }
 
+.leftSUform {
+  width: 50%;
+}
 
+.rightSUform {
+  width: 50%;
+  margin-top: 10vh;
+}
 
+.LoginSUBtns {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3vh;
+  font-size: 3vh;
+  padding: 1vh;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.LoginSUBtns:active {
+  transform: scale(0.9);
+}
+
+.IFSU {
+  border: 0;
+  outline: none;
+  width: 50%;
+  font-size: 3vh;
+  font-weight: bolder;
+  text-align: center;
+  padding-left: 0.5vw;
+  padding-bottom: 0.5vw;
+  margin-bottom: 2vh;
+  background-color: transparent;
+  border-bottom: 1px grey solid;
+}
+/* .IFSU::placeholder {
+  color: red;
+  opacity: 1; 
+}
+
+.IFSU:-ms-input-placeholder { 
+ color: red;
+}
+
+.IFSU::-ms-input-placeholder { 
+ color: red;
+} */
+
+.SUsubmit {
+  width: auto;
+  font-size: 3vh;
+  background-color: #0b8027;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 1vh;
+  margin-top: 2vh;
+}
+
+.SUsubmit:active {
+  transform: scale(0.95);
+}
+
+#fbsu {
+  background-color: #32508e;
+}
+#twsu {
+  background-color: #55acee;
+}
+#gosu {
+  background-color: #dd4b39;
+}
 
 /*------------------------------------------- 
 
 
-
-              Play Area page as follows
+  Play Area page as follows
 
 
 ----------------------------------------------*/
@@ -320,6 +401,6 @@ margin-bottom: 2vh;
   width: 100px;
   border-radius: 50%;
   background-color: #0b8027;
-  transition:1s;
-  position:absolute;
+  transition: 900ms;
+  position: absolute;
 }
