@@ -2,7 +2,14 @@
 
 const SignUp = () => {
   return (
-    <div>SignUp</div>
+    <div className="SignUpIndex">
+    <div className="SignUpFormContainer">
+        <form>
+            <label> Name </label>
+            <input type="text" />
+        </form>
+    </div>
+    </div>
   )
 }
 
