@@ -293,14 +293,20 @@ margin-bottom: 2vh;
 
 
 
-/*                   --------------- */
+/*------------------------------------------- 
+
+
+
+              Play Area page as follows
+
+
+----------------------------------------------*/
 
 .ball {
   height: 100px;
   width: 100px;
   border-radius: 50%;
   background-color: #0b8027;
-  
+  transition: 1s;
   position:absolute;
-
 }
