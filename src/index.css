@@ -31,38 +31,6 @@ Link {
   display: flex;
 }
 
-/* -----------------------------
-
-
-           Footer
-           
-           
----------------------------------*/
-
-.Footer {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  height: auto;
-  width: 100%;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  background-color: #2e4c6d;
-  text-align: center;
-  color: #f4eec7;
-  font-weight: bolder;
-  margin: auto;
-}
-
-/* --------------------------------------------
-
-
-           Index Page / Landing Page as follows
-           
-           
----------------------------------------------- */
-
 .rightHeader {
   right: 0;
   position: absolute;
@@ -113,6 +81,38 @@ Link {
   font-size: xx-large;
   padding-left: 2vw;
 }
+
+/* -----------------------------
+
+
+           Footer
+           
+           
+---------------------------------*/
+
+.Footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background-color: #2e4c6d;
+  text-align: center;
+  color: #f4eec7;
+  font-weight: bolder;
+  margin: auto;
+}
+
+/* --------------------------------------------
+
+
+           Index Page / Landing Page as follows
+           
+           
+---------------------------------------------- */
 
 .indexMainBody {
   width: 100%;
@@ -279,4 +279,28 @@ margin-bottom: 2vh;
   padding-top: 2vh;
   border-top: 1px #e0dcdc solid;
   
+}
+
+/* -----------------------------
+
+
+           Sign Up page as follows
+           
+           
+---------------------------------*/
+
+
+
+
+
+/*                   --------------- */
+
+.ball {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #0b8027;
+  
+  position:absolute;
+
 }

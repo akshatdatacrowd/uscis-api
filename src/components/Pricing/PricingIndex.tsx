@@ -1,4 +1,5 @@
 import { ImHome } from "react-icons/im";
+import { Link } from 'react-router-dom'
 
 const PricingIndex = () => {
   return (
@@ -24,7 +25,7 @@ const PricingIndex = () => {
             <p>No Hidden Cost</p>
           </div>
           <div className="suboptSignUpBtn">
-            <p className="suboptSignUpBtnBtn">Sign Up</p>
+            <Link to='/signup'><p className="suboptSignUpBtnBtn">Sign Up</p></Link>
           </div>
           <div className="suboptFeatures">
             <p className="suboptFt">100 API Calls / mo</p>
@@ -41,7 +42,7 @@ const PricingIndex = () => {
             <p>No Hidden Cost</p>
           </div>
           <div className="suboptSignUpBtn">
-            <p className="suboptSignUpBtnBtn">Sign Up</p>
+            <Link to='/signup'><p className="suboptSignUpBtnBtn">Sign Up</p></Link>
           </div>
           <div className="suboptFeatures">
             <p className="suboptFt">100 API Calls / mo</p>
@@ -58,7 +59,7 @@ const PricingIndex = () => {
             <p>No Hidden Cost</p>
           </div>
           <div className="suboptSignUpBtn">
-            <p className="suboptSignUpBtnBtn">Sign Up</p>
+            <Link to='/signup'><p className="suboptSignUpBtnBtn">Sign Up</p></Link>
           </div>
           <div className="suboptFeatures">
             <p className="suboptFt">100 API Calls / mo</p>
@@ -75,7 +76,7 @@ const PricingIndex = () => {
             <p>No Hidden Cost</p>
           </div>
           <div className="suboptSignUpBtn">
-            <p className="suboptSignUpBtnBtn">Sign Up</p>
+            <Link to='/signup'><p className="suboptSignUpBtnBtn">Sign Up</p></Link>
           </div>
           <div className="suboptFeatures">
             <p className="suboptFt">100 API Calls / mo</p>

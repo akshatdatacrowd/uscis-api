@@ -14,10 +14,10 @@ const Header = () => {
         </Link>
         <p className="opt">Documentation</p>
         <p className="opt">FAQ</p>
-        <p className="opt">Blog</p>
+        <Link to='/playarea'><p className="opt">Play Area</p></Link>
         <p className="opt">Status</p>
         <p className="opt LoginBtnHeader">Login</p>
-        <p className="opt ApiBtnHeader">GET FREE API KEY</p>
+        <Link to='/signup'><p className="opt ApiBtnHeader">GET FREE API KEY</p></Link>
       </div>
     </div>
   );
