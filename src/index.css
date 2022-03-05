@@ -4,7 +4,6 @@
   font-family: "Times New Roman", sans-serif, serif, monospace;
 }
 
-
 a,
 a:hover,
 a:visited,
@@ -386,6 +385,90 @@ Link {
 }
 #gosu {
   background-color: #dd4b39;
+}
+
+/*------------------------------------------- 
+
+
+  Case Tracker page as follows
+
+
+----------------------------------------------*/
+
+.CTIndex {
+  text-align: center;
+}
+
+#CTTitle {
+  margin-top: 5vh;
+  font-size: 6vh;
+}
+
+.FormCT {
+  width: auto;
+  text-align: center;
+  margin: auto;
+  margin-top: 3vh;
+}
+
+#CaseNumberInputCT {
+  border: none;
+  border-bottom: 2px grey solid;
+  text-align: center;
+  font-size: 4vh;
+  font-weight: bold;
+  margin-bottom: 2vh;
+  outline: none;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+#SubmitCT {
+  font-size: 4vh;
+  padding-right: 2vw;
+  padding-left: 2vw;
+  background-color: #0b8027;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+#SubmitCT:active {
+  transform: scale(0.95);
+}
+
+.StatusCT {
+  width: 35%;
+  margin: auto;
+  margin-top: 2.5vh;
+}
+
+#statusCTHeading {
+  margin-bottom: 1vh;
+  font-size: 5vh;
+}
+
+#statusCTDetails {
+  text-align: left;
+  font-size: 2.5vh;
+}
+
+#statusCTCaseNumber {
+  text-align: left;
+  font-size: 2.5vh;
+  font-weight: bold;
+  margin-bottom: 1vh;
+}
+
+#SearchAnotherCaseCTBtn {
+  margin-top: 2vh;
+  font-size: 4vh;
+  padding-right: 2vw;
+  padding-left: 2vw;
+  background-color: #0b8027;
+  color: white;
+  border: none;
+  border-radius: 10px;
 }
 
 /*------------------------------------------- 
