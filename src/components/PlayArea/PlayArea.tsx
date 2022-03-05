@@ -15,7 +15,7 @@ const PlayArea = () => {
 
   useEffect(() => {
     const eventkd = (k: KeyboardEvent) => {
-      console.log(k)
+      console.log(k);
       if (k.key === "ArrowDown") {
         setMouseY(MouseY + 50);
       }
